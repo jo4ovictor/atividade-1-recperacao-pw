@@ -14,12 +14,12 @@ function App(){
 
   return (
     <div>
-      {botao.map((boton) => {
-        return <Button key={boton}
-                tit={boton.tit}
-                sub={boton.sub}
-                tit2={boton.tit2}
-                sub2={boton.sub2}
+      {botao.map((button) => {
+        return <Button 
+                titulo={button.tit}
+                subtitulo={button.sub}
+                titulo2={button.tit2}
+                subtitulo2={button.sub2}
                 />;
       })
       }

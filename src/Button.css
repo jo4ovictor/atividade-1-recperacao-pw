@@ -1,8 +1,9 @@
 .container{
+    margin: 20px;
     margin-left: 40px;
     width: 290px;
     height: 80px;
-    margin-top: 20px;
+    border: 1px solid;
     background-color: #FFF;
     color: #000;
 }
